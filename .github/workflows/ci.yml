@@ -1,6 +1,6 @@
 name: CI
 
-on:
+"on":
   push:
     branches: ["v1", "main"]
   pull_request:
