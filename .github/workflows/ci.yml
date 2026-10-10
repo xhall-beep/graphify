@@ -1,4 +1,6 @@
 name: CI
+# NOTE: the "on" key must stay quoted - YAML 1.1 parses a bare on: as boolean true,
+# which silently unregisters every trigger (workflow had 0 runs ever before the fix).
 
 "on":
   push:
